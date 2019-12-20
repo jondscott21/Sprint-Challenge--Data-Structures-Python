@@ -42,6 +42,7 @@ class LinkedList:
     # if we've gotten here, then the target node isn't in our list
     return False
 
+# should be an O(n) since it only traverses the list once
   def reverse_list(self):
     prev_node = None
     cur_node = self.head
