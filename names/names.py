@@ -16,7 +16,7 @@ duplicates = []
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
-# bst = BinarySearchTree(names_1[0])
+bst = BinarySearchTree(names_1[0])
 for i in range(1, len(names_1)):
     bst.insert(names_1[i])
 
